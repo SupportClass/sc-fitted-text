@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+	<title>sc-fitted-text test</title>
+
+	<script src="../../webcomponentsjs/webcomponents-loader.js"></script>
+	<script src="../../web-component-tester/browser.js"></script>
+
+	<link rel="import" href="../../polymer/lib/utils/flush.html">
+	<link rel="import" href="../sc-fitted-text.html">
+</head>
+<body>
+	<test-fixture id="sc-fitted-text">
+		<template>
+			<sc-fitted-text></sc-fitted-text>
+		</template>
+	</test-fixture>
+
+	<!-- Normally I'd not inline this script, but it fails when I do that. -->
+	<!-- Guessing that's a bug in web-component-tester. -->
+	<script>
+		/* eslint-env mocha */
+		/* global fixture */
+
+		suite('sc-fitted-text', () => {
+			let element;
+			let shadowRoot; // eslint-disable-line no-unused-vars
+
+			setup(() => {
+				element = fixture('sc-fitted-text');
+				shadowRoot = element.shadowRoot;
+				Polymer.flush();
+			});
+
+			test('placeholder', () => {});
+		});
+	</script>
+</body>
+</html>
