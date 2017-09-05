@@ -132,6 +132,13 @@ Mixin | Description | Default
 			_textChanged(newVal) {
 				this.$.fittedContent.textContent = newVal;
 
+				if (document.readyState !== 'complete') {
+					window.addEventListener('load', () => {
+						this._textChanged(this.text);
+					});
+					return;
+				}
+
 				const font = window.getComputedStyle(this.$.fittedContent).font;
 				if (!font) {
 					this.$.fittedContent.style.visibility = 'visible';
