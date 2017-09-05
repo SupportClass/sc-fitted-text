@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.4"></a>
+## [1.0.4](https://github.com/nodecg/sc-fitted-text/compare/v1.0.3...v1.0.4) (2017-09-05)
+
+
+### Bug Fixes
+
+* improve first-fit on page load by waiting for document.readyState ([4a20207](https://github.com/nodecg/sc-fitted-text/commit/4a20207))
+
+
+
 <a name="1.0.3"></a>
 ## [1.0.3](https://github.com/nodecg/sc-fitted-text/compare/v1.0.2...v1.0.3) (2017-08-12)
 
