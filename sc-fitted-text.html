@@ -78,7 +78,7 @@ Mixin | Description | Default
 					maxWidth: {
 						type: Number,
 						value: 0,
-						observer: 'fit'
+						observer: '_maxWidthChanged'
 					},
 					align: {
 						type: String,
@@ -152,6 +152,16 @@ Mixin | Description | Default
 				}).catch(e => {
 					console.error('Failed to load fonts:', e);
 				});
+			}
+
+			/**
+			 * When the `maxWidth` property changes.
+			 * @param {String} newVal
+			 * @private
+			 */
+			_maxWidthChanged(newVal) {
+				this.style.maxWidth = `${newVal}px`;
+				this.fit();
 			}
 
 			/**
