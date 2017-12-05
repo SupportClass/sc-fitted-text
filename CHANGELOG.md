@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/nodecg/sc-fitted-text/compare/v1.1.0...v1.1.1) (2017-12-05)
+
+
+### Bug Fixes
+
+* **sc-fitted-text:** clear max-width style when maxWidth property is <= 0 ([519ba23](https://github.com/nodecg/sc-fitted-text/commit/519ba23))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/nodecg/sc-fitted-text/compare/v1.0.4...v1.1.0) (2017-10-28)
 
