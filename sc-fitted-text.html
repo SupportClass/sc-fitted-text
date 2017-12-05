@@ -160,7 +160,7 @@ Mixin | Description | Default
 			 * @private
 			 */
 			_maxWidthChanged(newVal) {
-				this.style.maxWidth = `${newVal}px`;
+				this.style.maxWidth = newVal <= 0 ? '' : `${newVal}px`;
 				this.fit();
 			}
 
