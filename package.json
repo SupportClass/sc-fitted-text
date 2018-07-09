@@ -1,6 +1,6 @@
 {
   "name": "sc-fitted-text",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A Polymer 2 element for horizontally squishing text to stay within a max width.",
   "main": "sc-fitted-text.html",
   "repository": {
