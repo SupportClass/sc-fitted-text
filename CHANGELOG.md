@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.3"></a>
+## [1.1.3](https://github.com/nodecg/sc-fitted-text/compare/v1.1.2...v1.1.3) (2019-04-17)
+
+
+### Bug Fixes
+
+* **imports:** add missing apply-shim import ([f2e6e03](https://github.com/nodecg/sc-fitted-text/commit/f2e6e03))
+
+
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/nodecg/sc-fitted-text/compare/v1.1.1...v1.1.2) (2018-07-09)
 
